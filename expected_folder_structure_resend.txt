@@ -1,0 +1,24 @@
+project1_info_crawler_resend/
+├─ data/
+│  ├─ raw/
+│  │  └─ crawled_policy_news.csv
+│  └─ processed/
+│     ├─ cleaned_policy_news.csv
+│     └─ recommended_policy_news.csv
+├─ reports/
+│  ├─ email_preview.html
+│  ├─ email_preview.txt
+│  └─ resend_send_log.csv
+├─ logs/
+│  ├─ crawler_error_log.txt
+│  └─ resend_error_log.txt
+├─ app/
+│  └─ streamlit_app.py
+├─ crawler.py
+├─ cleaner.py
+├─ recommender.py
+├─ email_report_builder.py
+├─ send_resend_email.py
+├─ requirements.txt
+├─ .env.example
+└─ README.md
